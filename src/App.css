@@ -1,0 +1,388 @@
+.bg_grey{
+  background:rgb(240,246,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text_dark_blue{
+  color:#02295a !important;
+}
+.text_light_grey{
+  color:rgb(150,153,171);
+}
+.box{
+  border-radius:15px !important;
+}
+.sunset{
+  background-image: url(Assets/Images/sunset_image.png);
+  margin:2%;
+  background-size: cover;
+  border-radius:10px;
+}
+.snow_mountain{
+  background-image: url(Assets/Images/snow_mountain_image.png);
+  margin:2%;
+  background-size: cover;
+  border-radius:10px;
+}
+.pink_cloud{
+  background-image: url(Assets/Images/pink_cloud_image.png);
+  margin:2%;
+  background-size: cover;
+  border-radius:10px;
+}
+.moon{
+  background-image: url(Assets/Images/moon_image.png);
+  margin:2%;
+  background-size: cover;
+  border-radius:10px;
+}
+.thank_you{
+  background-image: url(Assets/Images/thank_you_image.jpg);
+  margin:2%;
+  background-size: cover;
+  border-radius:10px;
+}
+.form_box{
+  margin:2%;
+  padding:2%;
+}
+.display_none{
+  display:none;
+}
+.form_head{
+  margin-top:1%;
+  padding-bottom:0%;
+  margin-bottom:0.5%;
+}
+.form_body{
+  padding-top:0%;
+  margin-top:0%;
+  font-weight:500;
+}
+.form_button{
+  background-color:#02295a!important;
+  color:white!important;
+  font-weight:500!important;
+}
+.button_box_one{
+  display:flex;
+  justify-content: end;
+}
+.button_box{
+  display:flex;
+  justify-content: space-between;
+}
+
+.stepper{
+  font-weight:600;
+  border:2px solid #bfe2fd;
+  color:white;
+  border-radius:100vh;
+  margin: 0% 33%;
+  padding: 9% 21%;
+  display:flex;
+  justify-content: center!important;
+}
+.stepper_plus{
+  font-weight:600;
+  border:2px solid #bfe2fd;
+  color:black;
+  background-color:#bfe2fd;
+  border-radius:100vh;
+  margin: 0% 33%;
+  padding: 9% 21%;
+  display:flex;
+  justify-content: center!important;
+}
+.image_box_height{
+  height:560px;
+}
+.step_box{
+  margin-top:2vh;
+}
+.step_box_one{
+  margin-top:4vh;
+}
+.step_head{
+  padding:0%;
+  margin:0%;
+  font-weight:bold;
+  color:white;
+}
+.step_count{
+  padding:0%;
+  margin:0%;
+  font-weight:600;
+}
+.text_pink{
+  color:rgb(255,230,238);
+}
+.text_grey{
+  color:#b8babb;
+}
+.text_purple{
+  color:#e6cdf2;
+}
+.text_sky_grey{
+  color:#e1dbf3;
+}
+.text_thank_you_grey{
+  color:#cdcbd3;
+}
+.done_icon{
+ font-weight:900px !important;
+}
+.back_button{
+  padding-left:15px !important;
+  padding-right:15px !important;
+}
+.input_title{
+  padding-right:0%;
+  margin-right:0%;
+  padding-bottom:0%;
+  margin-bottom:0%;
+  display:flex;
+  justify-content: space-between;
+}
+.error_message{
+  color:#ed3548;
+  font-size:15px;
+  font-weight:700;
+}
+.input_label{
+  color:#02295a !important;
+  font-weight:600 !important;
+  font-size:15px !important;
+}
+.form_item{
+  margin-top:0% !important;
+}
+.input_box{
+  width:550px;
+  font-weight:550;
+  padding: 12px 0px 12px 16px;
+  font-size:15px;
+  border-radius:5px;
+  border:2px solid #d6d9e6;
+}
+.input_error{
+  border: 2px solid #ed3548;
+}
+.grid_fields{
+  height:486px;
+}
+
+/* custom checkbox */ 
+.custom_checkbox {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  font-size: 16px;
+  color: #333;
+}
+
+.custom_checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.custom_checkbox .checkmark {
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgb(150,153,171);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+
+}
+
+.custom_checkbox .checkmark::before {
+  content: "\2713";
+  font-size: 16px;
+  font-weight:900;
+  color: transparent;
+}
+
+.custom_checkbox input[type="checkbox"]:checked + .checkmark {
+  background-color: #473dff;
+  border-color: #473dff;
+}
+
+.custom_checkbox input[type="checkbox"]:checked + .checkmark::before {
+  color: #fff;
+}
+
+.custom_checkbox:hover {
+  color: #666;
+}
+
+.custom_checkbox:hover .checkmark {
+  border-color: #666;
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
+
+.custom_checkbox input[type="checkbox"]:focus + .checkmark {
+  box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.checkbox_box{
+  border:2px solid #d6d9e6;
+  width:550px;
+  padding: 12px 8px 12px 8px;
+  border-radius:8px;
+  margin-bottom:15px;
+}
+
+.after_checked{
+  background-color:#f0f6ff;
+  border: 2px solid #473dff;
+}
+
+.checkbox_title{
+  padding:0%;
+  margin:0%;
+  font-weight:600;
+}
+.checkbox_sub{
+  padding:0%;
+  margin:0%;
+  color:rgb(152,156,175);
+  font-size:11.5px;
+}
+.checkbox_amount{
+  padding:0%;
+  margin:0%;
+  font-size:12px;
+  font-weight:500;
+}
+.amount_box{
+  display:flex;
+  justify-content: center;
+  flex-direction:column;
+  color:#473dff;
+}
+.done_box{
+  padding:0%;
+  margin:0%;
+  display:flex;
+  justify-content: center;
+}
+.main_card_box{
+ 
+}
+.card_box{
+  border-radius:10px !important;
+  padding: 0px 0px  !important;
+  margin:0px !important;
+  width:600px!important;
+}
+.switch_box{
+  border:none;
+  background-color:#f0f6ff;
+  border-radius:8px;
+  padding: 0px 175px;
+  margin:50px 0px;
+}
+.plans_title{
+  color:#02295a !important;
+  font-weight:bold !important;
+  font-size:19px !important;
+  margin-top: 25px !important;
+  padding-bottom:0px !important;
+  margin-bottom:0px !important;
+}
+.plans_amount{
+  color:#8a8c93 !important;
+  padding-top: 0px !important;
+  margin-top:0px !important; 
+  padding-bottom:0px !important;
+  margin-bottom:0px !important;
+  font-size:16.2px !important;
+}
+
+.thank_you_page{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form_end{
+  text-align:center;
+  color:#828291;
+  padding-top:0%;
+  margin-top:0%;
+}
+.form_end_head{
+  padding-bottom:0%;
+  margin-bottom:15px;
+}
+
+.end_page_image{
+  margin-top:130px;
+}
+.month_free{
+  font-size:16.5px !important;
+  color:#02295a !important;
+
+}
+.css-1lt5qva-MuiCardContent-root {
+  padding: 8px 16px !important; 
+}
+.cards_grid{
+  display:flex;
+  direction:row;
+  justify-content: center;
+  height: 120px !important;
+}
+.month_year{
+  font-size:16px !important;
+  font-weight:550 !important;
+}
+.css-1t18el7-MuiSwitch-root {
+  margin-left:20px !important;
+}
+.final_check{
+  background-color: #fafbff;
+  padding-top:0px;
+  margin-top:0px;
+  padding:4px 15px;
+}
+.final_title{
+  /* background-color: green; */
+  font-size:14px !important;
+  color:#989db1 !important;
+}
+.final_name{
+  font-size:16px !important;
+  font-weight:750 !important;
+
+}
+.final_change{
+  font-size:16px ;
+  font-weight:550 ;
+  padding:0px;
+  margin:0px;
+  color:#989db1;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.final_sub_amount{
+  font-weight:600 !important;
+  color:#02295a !important;
+}
+.total_bottom{
+  margin:10px 29px 0px 12px;
+}
+.total_title{
+  font-size:15px !important;
+  color:#989db1 !important;
+}
+.total_amount{
+  color:#473dff;
+  font-weight:700;
+  font-size:14px;
+}
